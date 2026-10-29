@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.special-heading{
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+img{
+    height: 20px;
+}
+
+a{
+    margin: 0 10px;
+    color: rgb(204, 37, 15);
+    text-decoration: none;
+}
+
+#hero-banner{
+    background: url("mystuff/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 40px;
+
+    height: 80vh;
+    
+    color:aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.regular{
+    width: 180px;
+    height: 35px;
+    margin: 0 5px;
+
+    border-radius: 5px;
+}
+
+.primary{
+    background-color:#3e6ae1;
+    border:1px solid #3e6ae1;
+    color:white;
+}
+
+.secondary{
+    background-color: white;
+    border:1px solid white;
+    color: #5b5b62;
+}
+
+h2, h5{
+    margin:0;
+}
+
+h2{
+    margin: top 50px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+h4{
+    text-decoration: underline;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+#video-section{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+    width: 100vw;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+video{
+    width: 70%;
+    height: 100%;
+}
+/*------------------------------------*/
+#models{
+    display: flex; /*Default_makes things into a row...provided you have many things to begin with*/
+    justify-content: space-between;
+
+    gap: 50px;
+
+    overflow-x: scroll;
+}
+
+#Model-Y-L-Premium{
+    background: url(mystuff/model1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+
+    
+}
+
+#Model-3{
+    background: url(mystuff/car2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+#Model-Y{
+    background: url(mystuff/car3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-width: 1000px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+#cybertruck{
+    background: url(mystuff/car4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1000px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+#Certified-Pre-Owned{
+    background: url(mystuff/pre-owed.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1000px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    padding: 0 32px;
+}
+
+.nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #d8d9da;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+
+#energy-suppys{
+    display: flex; /*Default_makes things into a row...provided you have many things to begin with*/
+    justify-content: space-between;
+
+    gap: 50px;
+
+    overflow-x: scroll;
+}
+
+#solar-panels{
+    background: url(mystuff/solar.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+#Megapack{
+    background: url(mystuff/mega.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+#powerwall{
+    background: url(mystuff/powerwall.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+footer {
+    background: #111;
+    padding: 40px 20px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #aaa;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #fff;
+}
+
+footer p {
+    color: #777;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
